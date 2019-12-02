@@ -5,7 +5,7 @@
 ### Author: Sam Sterns
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
+* [submission PR](https://github.com/samSterns/lab1/pull/1)
 * [travis](http://xyz.com)
 * [back-end](http://xyz.com) (when applicable)
 * [front-end](http://xyz.com) (when applicable)
