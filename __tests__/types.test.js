@@ -85,6 +85,7 @@ describe('types function', () => {
 
     it('can get the right caster', () => {
         expect(getCaster(Number)).toEqual(castToNumber);
+        expect(getCaster(Boolean)).toEqual(castToBoolean);
         expect(getCaster(Promise)).toBeNull();
     });
 });
