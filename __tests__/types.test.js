@@ -8,6 +8,7 @@ const {
     castToNumber,
     castToString,
     castToBoolean,
+    castToArray,
     getCaster
 } = require('../lib/types.js');
 
@@ -80,6 +81,10 @@ describe('types function', () => {
             expect(castToBoolean('3')).toEqual(true);
             expect(castToBoolean(true)).toEqual(true);
         });
+        it('can cast values to a array', () => {
+            expect(castToArray(1, 2, 3)).toEqual([1, 2, 3]);
+            expect(castToArray('hi')).toEqual(['hi']);
+        });
 
     });
 
@@ -87,6 +92,7 @@ describe('types function', () => {
         expect(getCaster(Number)).toEqual(castToNumber);
         expect(getCaster(String)).toEqual(castToString);
         expect(getCaster(Boolean)).toEqual(castToBoolean);
+        // expect(getCaster(Array)).toEqual(castToArray);
         expect(getCaster(Promise)).toBeNull();
     });
 });
