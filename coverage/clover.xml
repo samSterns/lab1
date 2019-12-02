@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1575325311790" clover="3.2.0">
-  <project timestamp="1575325311791" name="All files">
-    <metrics statements="19" coveredstatements="19" conditionals="6" coveredconditionals="6" methods="9" coveredmethods="9" elements="34" coveredelements="34" complexity="0" loc="19" ncloc="19" packages="1" files="1" classes="1"/>
+<coverage generated="1575326440646" clover="3.2.0">
+  <project timestamp="1575326440646" name="All files">
+    <metrics statements="22" coveredstatements="22" conditionals="6" coveredconditionals="6" methods="10" coveredmethods="10" elements="38" coveredelements="38" complexity="0" loc="22" ncloc="22" packages="1" files="1" classes="1"/>
     <file name="types.js" path="/Users/samanthasterns/alchemy/career-track-one/lab1/lib/types.js">
-      <metrics statements="19" coveredstatements="19" conditionals="6" coveredconditionals="6" methods="9" coveredmethods="9"/>
+      <metrics statements="22" coveredstatements="22" conditionals="6" coveredconditionals="6" methods="10" coveredmethods="10"/>
       <line num="1" count="12" type="stmt"/>
       <line num="2" count="6" type="stmt"/>
       <line num="3" count="4" type="stmt"/>
@@ -15,14 +15,17 @@
       <line num="10" count="5" type="stmt"/>
       <line num="11" count="5" type="cond" truecount="2" falsecount="0"/>
       <line num="12" count="3" type="stmt"/>
-      <line num="17" count="2" type="stmt"/>
-      <line num="18" count="2" type="stmt"/>
-      <line num="19" count="2" type="stmt"/>
-      <line num="20" count="2" type="stmt"/>
-      <line num="24" count="1" type="stmt"/>
-      <line num="28" count="1" type="stmt"/>
-      <line num="29" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="32" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="16" count="3" type="stmt"/>
+      <line num="17" count="3" type="stmt"/>
+      <line num="22" count="2" type="stmt"/>
+      <line num="23" count="2" type="stmt"/>
+      <line num="24" count="2" type="stmt"/>
+      <line num="25" count="2" type="stmt"/>
+      <line num="29" count="1" type="stmt"/>
+      <line num="33" count="1" type="stmt"/>
+      <line num="34" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="37" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
