@@ -7,6 +7,7 @@ const {
     isFunction,
     castToNumber,
     castToString,
+    castToBoolean,
     getCaster
 } = require('../lib/types.js');
 
@@ -73,6 +74,11 @@ describe('types function', () => {
             expect(castToString(3)).toEqual('3');
             expect(castToString(true)).toEqual('true');
             expect(castToString(false)).toEqual('false');
+        });
+        it('can cast values to a boolean', () => {
+            expect(castToBoolean(3)).toEqual(true);
+            expect(castToBoolean('3')).toEqual(true);
+            expect(castToBoolean(true)).toEqual(true);
         });
 
     });
