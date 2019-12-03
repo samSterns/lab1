@@ -1,7 +1,5 @@
 language: "node_js"
-node_js: "stable"
-before_script:
-  - npm i eslint esm jsdom
+node_js: node
 script:
   - npm run lint
   - npm test
